@@ -1,0 +1,199 @@
+
+/* FONT */
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&display=swap');
+    /* HEADER TITRE VIDEO */
+#backgroundVideo {
+    width: 100%;
+    object-fit: cover;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+    border-bottom: 1px solid black;
+  }
+
+
+header nav { 
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(0, 0, 0, 0.5);
+
+}
+
+.navLinks {
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    font-size: 1.5em; 
+    cursor: pointer;
+}
+
+.navLinks:hover {
+    color: darkslategray;
+}
+
+#headerTitle {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 25vh;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 2em;
+    color: 	#94aaa6;
+}
+
+
+    /* MAIN */
+body {
+    background-image: url(../images/wallpaperSpace.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+}
+
+main {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+a {
+    text-decoration: none;
+}
+
+section {
+    margin-top: 25vh;
+    margin-bottom: 25vh;
+    background-color: rgba(230, 240, 220, 1); 
+    border-bottom: 1px solid black;
+}
+
+
+#photoAuteur {
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+}
+/* article {
+    padding-top: 30px;
+} */
+article p {
+    font-style: italic;
+    padding: 10px;
+    color: #749481;
+    font-family: 'Dosis', sans-serif;
+}
+
+.photoEtArticle {
+    display: flex;
+    margin: 3em;
+    align-items: center;
+}
+.ouvragesPresentation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.ouvragesPresentation article {
+    width: 20%;
+    padding: 20px;
+}
+.ouvragesPresentation article img {
+    width: 100%;
+}
+section a {
+    color: black;
+    font-size: larger;
+    text-decoration: underline;
+}
+section a:hover {
+    text-decoration: underline;
+    color: red;
+}
+h3 {
+    font-family: 'Dosis', sans-serif;
+    font-size: 2em;
+    text-align: center;
+    padding: 20px;
+    cursor: pointer;
+}
+h4 {
+    font-family: 'Dosis', sans-serif;
+    font-size: larger;
+    text-align: center;
+}
+h5 {
+    font-family: 'Dosis', sans-serif;
+    text-align: center;
+}
+#liensAchat {
+    margin-top: 130px;
+}
+#lienHistoires {
+    margin-bottom: 40px;
+}
+/* FOOTER */
+footer {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(230, 240, 220, 1); 
+}
+#reseauxSociaux {
+    margin-top: 5vh;
+    margin-bottom: 3vh;
+}
+    /* PHONE */
+@media only screen and (max-width: 600px) {   
+    #backgroundVideo {
+        display: none;
+    }
+     h3, h4, p, a {
+        font-size: xx-large;
+    } 
+    .photoEtArticle {
+        display: inline;
+    }
+    .photoEtArticle img {
+        margin-top: 20px;
+    }
+    .ouvragesPresentation {
+        flex-direction: column;
+    }
+    .ouvragesPresentation article {
+        width: 100%;
+        padding: 0;
+        padding: none;
+    }
+    article p {
+        padding: 0;
+        width: auto;
+    }
+    article {
+        width: auto;
+        padding: 0;
+    }
+    header {
+        padding: 0;
+    }
+    header nav {
+        position: inherit;
+    }
+    nav  {
+        display: flex;  
+        flex-direction: column;
+        text-align: center;
+        padding-left: none;
+    }
+  }
