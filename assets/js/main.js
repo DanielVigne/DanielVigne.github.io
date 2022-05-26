@@ -1,6 +1,6 @@
 
 // Remonte en haut de page
-const smoothAccueil = document.querySelector("#navAccueil");
+const smoothAccueil = document.getElementById("navAccueil");
 
 smoothAccueil.addEventListener("click", function () {
   window.scrollTo({
@@ -8,7 +8,6 @@ smoothAccueil.addEventListener("click", function () {
     behavior: 'smooth'
   });
 });
-
 
 // Va vers la section aPropos
 const smoothAPropos = document.getElementById("navAPropos");
@@ -28,6 +27,25 @@ const targetOuvrages = document.getElementById("ouvrages");
 smoothOuvrages.addEventListener("click", function () {
   window.scrollTo({
     top: targetOuvrages.offsetTop,
+    behavior: 'smooth'
+  });
+});
+
+// retourne top pour telephone
+const smoothTop = document.getElementById("smoothTop");
+smoothTop.addEventListener("click", function () {
+  window.scrollTo({
+    top: 0,
+    behavior: 'smooth'
+  });
+});
+
+// smooth contact 
+
+const navContact = document.getElementById("navContact");
+navContact.addEventListener("click", function () {
+  window.scrollTo({
+    top: 6500,
     behavior: 'smooth'
   });
 });
