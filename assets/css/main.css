@@ -81,15 +81,9 @@ section {
 }
 
 article p {
-    font-style: italic;
     padding: 10px;
-    color: #4d6155;
     font-family: 'Dosis', sans-serif;
-    overflow: auto;
-}
-article p:hover {
-    opacity: 0.8;
-    color: black;
+    overflow: auto; 
 }
 .photoEtArticle {
     display: flex;
