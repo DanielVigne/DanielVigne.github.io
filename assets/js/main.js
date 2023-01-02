@@ -45,7 +45,7 @@ smoothTop.addEventListener("click", function () {
 const navContact = document.getElementById("navContact");
 navContact.addEventListener("click", function () {
   window.scrollTo({
-    top: 6500,
+    top: 10000,
     behavior: 'smooth'
   });
 });

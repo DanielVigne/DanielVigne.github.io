@@ -81,6 +81,13 @@ section {
     border-bottom: 1px solid black;
 }
 
+#dernierLivre {
+    border-top: 1px black solid;
+    border-bottom: 1px black solid;
+    width: 80%;
+    margin: 80px auto;
+}
+
 #photoAuteur {
     border-radius: 3px;
 }
@@ -153,10 +160,6 @@ footer {
     background-color: rgba(230, 240, 220, 1);
 }
 
-#reseauxSociaux {
-    margin-top: 5vh;
-    margin-bottom: 3vh;
-}
 
 #reseauxSociaux a img {
     width: 60px;
@@ -167,69 +170,4 @@ footer {
     cursor: pointer;
 }
 
-/* PHONE */
-@media only screen and (max-width: 600px) {
-    #backgroundVideo {
-        display: none;
-    }
-
-    h3,
-    p {
-        font-size: xx-large;
-    }
-
-    a {
-        font-size: xx-large;
-    }
-
-    h4 {
-        display: none;
-    }
-
-    .photoEtArticle {
-        display: inline;
-    }
-
-    .photoEtArticle img {
-        margin-top: 20px;
-    }
-
-    .ouvragesPresentation {
-        flex-direction: column;
-    }
-
-    .ouvragesPresentation article {
-        width: 100%;
-        padding: 0;
-        padding: none;
-    }
-
-    .ouvragesPresentation img {
-        padding-top: 20px;
-    }
-
-    article p {
-        padding: 0;
-        width: auto;
-    }
-
-    article {
-        width: auto;
-        padding: 0;
-    }
-
-    header {
-        padding: 0;
-    }
-
-    header nav {
-        position: inherit;
-    }
-
-    nav {
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        padding-left: none;
-    }
-}
+/* PHONE  in mediaQuery.css*/

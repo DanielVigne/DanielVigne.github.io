@@ -1,0 +1,63 @@
+@media only screen and (max-width: 600px) {
+    #backgroundVideo {
+        display: none;
+    }
+
+    h3,
+    p {
+        font-size: xx-large;
+    }
+
+    a {
+        font-size: xx-large;
+    }
+
+    h4 {
+        display: none;
+    }
+
+    .photoEtArticle {
+        display: inline;
+    }
+
+    .photoEtArticle img {
+        margin-top: 20px;
+    }
+
+    .ouvragesPresentation {
+        flex-direction: column;
+    }
+
+    .ouvragesPresentation article {
+        width: 80%;
+        margin: 20px auto;
+        padding: 0;
+    }
+
+    .ouvragesPresentation img {
+        padding-top: 20px;
+    }
+
+    article p {
+        padding: 0;
+        width: auto;
+    }
+
+    article {
+        width: auto;
+        padding: 0;
+    }
+
+    header {
+        padding: 0;
+    }
+
+    header nav {
+        position: inherit;
+    }
+
+    nav {
+        flex-direction: column;
+        text-align: center;
+    }
+}
