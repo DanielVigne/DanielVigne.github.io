@@ -1,63 +1,68 @@
 @media only screen and (max-width: 600px) {
-    #backgroundVideo {
-        display: none;
-    }
+  #backgroundVideo {
+    display: none;
+  }
 
-    h3,
-    p {
-        font-size: xx-large;
-    }
+  h3,
+  p {
+    font-size: 1.8em;
+  }
 
-    a {
-        font-size: xx-large;
-    }
+  a {
+    font-size: xx-large;
+  }
 
-    h4 {
-        display: none;
-    }
+  h4 {
+    display: none;
+  }
+  .dernierLivre h4 {
+    display: block;
+    font-size: 1.8em;
+  }
 
-    .photoEtArticle {
-        display: inline;
-    }
+  .photoEtArticle {
+    display: inline;
+  }
 
-    .photoEtArticle img {
-        margin-top: 20px;
-    }
+  .photoEtArticle img {
+    margin-top: 20px;
+  }
 
-    .ouvragesPresentation {
-        flex-direction: column;
-    }
+  .ouvragesPresentation {
+    flex-direction: column;
+  }
 
-    .ouvragesPresentation article {
-        width: 80%;
-        margin: 20px auto;
-        padding: 0;
-    }
+  .ouvragesPresentation article {
+    width: 80%;
+    margin: 20px auto;
+    padding: 0;
+  }
 
-    .ouvragesPresentation img {
-        padding-top: 20px;
-    }
+  .ouvragesPresentation img {
+    padding-top: 20px;
+    border-top: 1px black solid;
+  }
 
-    article p {
-        padding: 0;
-        width: auto;
-    }
+  article p {
+    padding: 0;
+    width: auto;
+  }
 
-    article {
-        width: auto;
-        padding: 0;
-    }
+  article {
+    width: auto;
+    padding: 0;
+  }
 
-    header {
-        padding: 0;
-    }
+  header {
+    padding: 0;
+  }
 
-    header nav {
-        position: inherit;
-    }
+  header nav {
+    position: inherit;
+  }
 
-    nav {
-        flex-direction: column;
-        text-align: center;
-    }
+  nav {
+    flex-direction: column;
+    text-align: center;
+  }
 }

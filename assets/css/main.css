@@ -1,173 +1,173 @@
 /* FONT */
-@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@200&display=swap");
 
 /* HEADER TITRE VIDEO */
 #backgroundVideo {
-    width: 100%;
-    object-fit: cover;
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    z-index: -1;
-    border-bottom: 1px solid black;
+  width: 100%;
+  object-fit: cover;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+  border-bottom: 1px solid black;
 }
 
-
 header nav {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    padding: 10px 0;
-    display: flex;
-    justify-content: space-around;
-    background-color: rgba(0, 0, 0, 0.5);
-
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 10px 0;
+  display: flex;
+  justify-content: space-around;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .navLinks {
-    padding: 10px;
-    text-decoration: none;
-    color: white;
-    font-size: 1.5em;
-    cursor: pointer;
+  padding: 10px;
+  text-decoration: none;
+  color: white;
+  font-size: 1.5em;
+  cursor: pointer;
 }
 
 .navLinks:hover {
-    color: darkslategray;
+  color: darkslategray;
 }
 
 #headerTitle {
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin-top: 25vh;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 2em;
-    color: #94aaa6;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 25vh;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 2em;
+  color: #94aaa6;
 }
-
 
 /* MAIN */
 body {
-    background-image: url(../images/wallpaperSpace.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    margin: 0;
+  background-image: url(../images/wallpaperSpace.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  margin: 0;
 }
 
 main {
-    text-align: center;
-    display: flex;
-    flex-direction: column;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 p {
-    font-size: larger;
+  font-size: larger;
 }
 
 section {
-    margin-top: 25vh;
-    margin-bottom: 25vh;
-    background-color: rgba(230, 240, 220, 1);
-    border-bottom: 1px solid black;
+  margin-top: 25vh;
+  margin-bottom: 25vh;
+  background-color: rgba(230, 240, 220, 1);
+  border-bottom: 1px solid black;
 }
 
-#dernierLivre {
-    border-top: 1px black solid;
-    border-bottom: 1px black solid;
-    width: 80%;
-    margin: 80px auto;
+.dernierLivre {
+  border-top: 1px black solid;
+  width: 80%;
+  margin: 80px auto;
 }
 
 #photoAuteur {
-    border-radius: 3px;
+  border-radius: 3px;
 }
 
 article p {
-    padding: 10px;
-    font-family: 'Dosis', sans-serif;
-    overflow: auto;
+  padding: 10px;
+  font-family: "Dosis", sans-serif;
+  overflow: auto;
 }
 
 .photoEtArticle {
-    display: flex;
-    margin: 1em;
-    align-items: center;
+  display: flex;
+  margin: 1em;
+  align-items: center;
 }
 
 .ouvragesPresentation {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .ouvragesPresentation article {
-    width: 20%;
-    padding: 20px;
+  width: 20%;
+  padding: 20px;
 }
 
 .ouvragesPresentation article img {
-    width: 100%;
+  width: 100%;
 }
 
 .ouvragesPresentation article img:hover {
-    opacity: 0.8;
-    cursor: pointer;
+  opacity: 0.8;
+  cursor: pointer;
 }
 
 section a {
-    color: black;
-    text-decoration: underline;
+  color: black;
+  text-decoration: underline;
 }
 
 section a:hover {
-    text-decoration: underline;
-    color: red;
+  text-decoration: underline;
+  color: red;
 }
 
 h3 {
-    font-family: 'Dosis', sans-serif;
-    font-size: 2em;
-    text-align: center;
-    cursor: pointer;
+  font-family: "Dosis", sans-serif;
+  font-size: 2em;
+  text-align: center;
+  cursor: pointer;
 }
 
 h4 {
-    font-family: 'Dosis', sans-serif;
-    font-size: larger;
-    text-align: center;
+  font-family: "Dosis", sans-serif;
+  font-size: larger;
+  text-align: center;
 }
 
 h5 {
-    font-family: 'Dosis', sans-serif;
-    text-align: center;
+  font-family: "Dosis", sans-serif;
+  text-align: center;
 }
 
 /* FOOTER */
 footer {
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: rgba(230, 240, 220, 1);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(230, 240, 220, 1);
 }
 
-
+footer .mailto {
+  display: flex;
+  align-items: center;
+}
 #reseauxSociaux a img {
-    width: 60px;
-    padding: 10px;
+  width: 60px;
+  padding: 10px;
 }
 
 #smoothTop {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 /* PHONE  in mediaQuery.css*/
