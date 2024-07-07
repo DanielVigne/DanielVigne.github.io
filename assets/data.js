@@ -30,8 +30,20 @@ const books = {
       laFnac:
         "https://livre.fnac.com/a17686010/Daniel-Vigne-A-la-plume-de-votre-ame#omnsearchpos=1",
     },
+    21: {
+      title: "Mädi",
+      description:
+        "Mädi est le parcours d’une enfant qui devient par une singulière croisée de chemins une femme consciente d’un secret de famille qui remonte à la nuit des temps. La rencontre avec le personnage central reste insolite, car elle montre que la femme initiée est le complément, voire le dépassement de l’homme, en l’appelant à une complétude de la vie.",
+    },
+    image: "assets/images/madi.png",
+    purchaseLinks: {
+      leLysBleu: "https://www.lysbleueditions.com/produit/madi/",
+      /*   amazon:
+      "https://www.amazon.fr/Rencontre-Dani%C3%ABl-Vigne/dp/B08YQFT19Q/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=1653594483&sr=1-1",
+    laFnac: "https://livre.fnac.com/a15812409/Daniel-Vigne-Rencontre", */
+    },
   },
-  2: {
+  /*   2: {
     title: "Rencontre",
     description:
       "Ce livre est un parcours initiatique qui témoigne d’expériences personnelles parsemées de réflexions profondes. Une « présence » intérieure se révélera au fil des pages pour enfin accoucher d’un « enfant » conçu par l’amour infini entre deux âmes. Cet enfant se veut être un éveilleur de consciences ouvertes sur une « Rencontre vraie qui nous demande à retrouver le regard neuf de la Vie au-delà des apparences. Les yeux du produit de cet Amour d’âmes portera le monde de demain.",
@@ -42,7 +54,7 @@ const books = {
         "https://www.amazon.fr/Rencontre-Dani%C3%ABl-Vigne/dp/B08YQFT19Q/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=1653594483&sr=1-1",
       laFnac: "https://livre.fnac.com/a15812409/Daniel-Vigne-Rencontre",
     },
-  },
+  }, */
   3: {
     title: "La Spiritualité des civilisations",
     subtitle: " Ou la Révélation des secrets de l’histoire du monde",
