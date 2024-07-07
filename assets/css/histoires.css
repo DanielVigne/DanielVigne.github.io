@@ -15,6 +15,7 @@ article {
 }
 .photoGaucheEtArticle {
   display: flex;
+  align-items: center;
 }
 
 p {
