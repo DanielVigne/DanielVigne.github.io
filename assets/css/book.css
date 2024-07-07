@@ -1,0 +1,62 @@
+.dernierLivre {
+  border-top: 1px black solid;
+  width: 80%;
+  margin: 50px auto;
+  padding: 30px 0;
+}
+.dernierLivre img {
+  max-width: 300px;
+}
+.oldBooks {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.oldBooks .book {
+  width: 250px;
+  margin: 30px 20px;
+}
+.titleContainer {
+  height: 85px;
+}
+.book img {
+  width: 100%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+.book img:hover {
+  opacity: 0.9;
+}
+
+.book p {
+  padding: 10px;
+  font-family: "Dosis", sans-serif;
+  overflow: auto;
+}
+
+.containerLiens {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.liensAuthor {
+  max-width: 350px;
+  text-align: center;
+  margin: 10px auto 30px auto;
+}
+
+@media only screen and (max-width: 600px) {
+  .oldBooks .book {
+    width: 100%;
+    margin: 50px auto;
+  }
+  .oldBooks .book img {
+    max-width: 300px;
+  }
+  .liensAchat * {
+    font-size: 25px;
+  }
+  .titleContainer {
+    display: none;
+  }
+}
