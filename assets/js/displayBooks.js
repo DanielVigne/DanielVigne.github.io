@@ -45,10 +45,12 @@ oldBooks.classList.add("oldBooks");
 
 function displayAllBooks() {
   const ouvrages = document.getElementById("ouvrages");
-  const valeursLivres = Object.values(books);
+  const valeursLivres = Object.values(books).reverse();
+
   valeursLivres.forEach((livre, index) => {
+    console.log("livre: ", livre, "index: ", index);
     const bookElement = displayABook(livre);
-    if (index < 2) {
+    if (index < 3) {
       bookElement.classList.add("dernierLivre");
       ouvrages.append(bookElement);
     } else {

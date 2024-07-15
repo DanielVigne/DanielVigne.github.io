@@ -1,5 +1,5 @@
 const books = {
-  0: {
+  13: {
     title: "L'Intrication humaine",
     subtitle: "Mieux comprendre l'autre",
     description:
@@ -8,15 +8,27 @@ const books = {
     purchaseLinks: {
       edilivre:
         "https://www.edilivre.com/l-intrication-humaine-daniel-vigne.html/",
+      amazon: "https://amzn.eu/d/02uCv11m",
       /*       leLysBleu:
         "https://www.lysbleueditions.com/produit/a-la-plume-de-votre-ame-votre-ame-est-elle-aussi-legere-quune-plume/",
-      amazon:
-        "https://www.amazon.fr/plume-votre-%C3%A2me-est-elle-l%C3%A9g%C3%A8re/dp/B0BRP2QKJC/ref=sr_1_1?__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=WYTZ2R1HS0RO&keywords=%C3%A0+la+plume+de+votre+%C3%A2me&qid=1673859984&sprefix=%C3%A0+la+plume+de+votre+%C3%A2me%2Caps%2C109&sr=8-1",
+
       laFnac:
         "https://livre.fnac.com/a17686010/Daniel-Vigne-A-la-plume-de-votre-ame#omnsearchpos=1", */
     },
   },
-  1: {
+
+  12: {
+    title: "Mädi",
+    description:
+      "Mädi est le parcours d’une enfant qui devient par une singulière croisée de chemins une femme consciente d’un secret de famille qui remonte à la nuit des temps. La rencontre avec le personnage central reste insolite, car elle montre que la femme initiée est le complément, voire le dépassement de l’homme, en l’appelant à une complétude de la vie.",
+    image: "assets/images/madi.png",
+    purchaseLinks: {
+      leLysBleu: "https://www.lysbleueditions.com/produit/madi/",
+      amazon: "https://amzn.eu/d/iJW46mQ",
+      laFnac: "https://www.fnac.com/a17820659/Daniel-Vigne-Madi",
+    },
+  },
+  11: {
     title: "À la plume de votre âme",
     subtitle: "Votre âme est-elle aussi légère qu’une plume ?",
     description:
@@ -29,18 +41,6 @@ const books = {
         "https://www.amazon.fr/plume-votre-%C3%A2me-est-elle-l%C3%A9g%C3%A8re/dp/B0BRP2QKJC/ref=sr_1_1?__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=WYTZ2R1HS0RO&keywords=%C3%A0+la+plume+de+votre+%C3%A2me&qid=1673859984&sprefix=%C3%A0+la+plume+de+votre+%C3%A2me%2Caps%2C109&sr=8-1",
       laFnac:
         "https://livre.fnac.com/a17686010/Daniel-Vigne-A-la-plume-de-votre-ame#omnsearchpos=1",
-    },
-    21: {
-      title: "Mädi",
-      description:
-        "Mädi est le parcours d’une enfant qui devient par une singulière croisée de chemins une femme consciente d’un secret de famille qui remonte à la nuit des temps. La rencontre avec le personnage central reste insolite, car elle montre que la femme initiée est le complément, voire le dépassement de l’homme, en l’appelant à une complétude de la vie.",
-    },
-    image: "assets/images/madi.png",
-    purchaseLinks: {
-      leLysBleu: "https://www.lysbleueditions.com/produit/madi/",
-      /*   amazon:
-      "https://www.amazon.fr/Rencontre-Dani%C3%ABl-Vigne/dp/B08YQFT19Q/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=1653594483&sr=1-1",
-    laFnac: "https://livre.fnac.com/a15812409/Daniel-Vigne-Rencontre", */
     },
   },
   /*   2: {
@@ -55,7 +55,7 @@ const books = {
       laFnac: "https://livre.fnac.com/a15812409/Daniel-Vigne-Rencontre",
     },
   }, */
-  3: {
+  9: {
     title: "La Spiritualité des civilisations",
     subtitle: " Ou la Révélation des secrets de l’histoire du monde",
     description:
@@ -70,7 +70,7 @@ const books = {
         "https://livre.fnac.com/a13480608/Daniel-Vigne-La-spiritualite-des-civilisations-ou-la-revelation-des-secrets-de-l-histoire-du-monde#omnsearchpos=1",
     },
   },
-  4: {
+  8: {
     title: "Les temps du voyage",
     description:
       "Ce livre est un appel au voyage intérieur de l’âme nomade de l’auteur. En effet, ce dernier nous délivre quelques-unes de ses nombreuses vies antérieures. Il se met à nu pour que vous puissiez mieux le rencontrer en son for intérieur mais également en permettant de mieux comprendre les rouages cachés d’une destinée.",
@@ -84,7 +84,7 @@ const books = {
         "https://livre.fnac.com/a16151367/Daniel-Vigne-Les-temps-du-voyage#omnsearchpos=15",
     },
   },
-  5: {
+  7: {
     title: "La Connaissance des « Anciens »",
     description:
       "Cet ouvrage est le message d’une spiritualité qui se veut le ferment d’une mutation humaine en cette fin de cycle historique. Il vous révèlera les secrets du voyage de votre âme dans d’autres univers, du couloir de vos nombreuses vies, de la quête éternelle de l’âme soeur et du développement intérieur de votre conscience. Tout être vivant est multiple en son for intérieur et il a cette faculté d'ouvrir les portes de son esprit en comprenant ainsi le pourquoi des épreuves de l'existence. Les « Anciens » avaient compris que seule une conscience de vérité transcendante et unitaire surgira tôt ou tard du tréfonds des âges. L’instant est enfin arrivé pour que cette spiritualité universelle soit transcrite à l’encre de l’apprentissage du cœur des hommes et des femmes sur les pages retrouvées du livre intemporel du secret de la Vie.",
@@ -112,7 +112,7 @@ const books = {
         "https://livre.fnac.com/a13480589/Daniel-Vigne-L-astrologie-spirituelle-des-108-vies-de-l-ame#omnsearchpos=1",
     },
   },
-  7: {
+  5: {
     title: "Le Ciel et notre chemin de vie, une vieille histoire",
     description:
       "Entre le zodiaque des saisons et le zodiaque des étoiles, l’astrologie se perd dans une guerre intestine qui n’a plus lieu d’être. En effet, cet ouvrage nous apporte enfin une réponse réconciliatrice entre ces deux visions astrologiques par l’exemple d’une interprétation astrologique exhaustive. Chacun devient ce qu’il est dans son parcours zodiacal selon les expériences de son existence et surtout selon sa réaction face aux événements perçus. L’étude de notre thème astral est d’autant plus nécessaire qu’elle nous permet de comprendre le plan général de notre destinée, qui ne se limite pas à une seule vie.",
@@ -126,7 +126,7 @@ const books = {
         "https://www.fnac.com/a15264774/Daniel-Vigne-Le-Ciel-et-notre-chemin-de-vie-une-vieille-histoire#omnsearchpos=1",
     },
   },
-  8: {
+  4: {
     title: "La Fin cyclique de notre monde ",
     subtitle: "Ou L'Aube d'une nouvelle aventure humaine",
     description:
@@ -141,7 +141,7 @@ const books = {
         "https://www.fnac.com/a13604979/Daniel-Vigne-La-fin-cyclique-de-notre-monde#omnsearchpos=1",
     },
   },
-  9: {
+  3: {
     title: "Les Âmes indigo",
     description:
       "Cet ouvrage ouvre les portes d’une liberté intérieure à travers le témoignage transgénérationnel d’une rencontre entre deux enfants indigo et un vieil homme empli d’une sagesse intemporelle qui a su répondre aux multiples questions posées par l’innocence subtile de la vie. Il se veut être un éveilleur de conscience où les sujets abordés peuvent être assimilés au quotidien de notre existence. Pour cela, il va falloir nous alléger de ce poids d’adulte qui n’ose pas affronter les questions qui dérangent nos préjugés sans voir la beauté vraie de l’instant présent. Les auteurs proposent donc, à toutes et à tous, de voguer sur les vagues d’une spiritualité retrouvée à travers les yeux d’enfants qui portent le regard solaire de demain.",
@@ -155,7 +155,7 @@ const books = {
         "https://www.fnac.com/a13936825/Thierry-Gauthier-Les-Ames-indigo#omnsearchpos=1",
     },
   },
-  10: {
+  2: {
     title: "Une philosophie de son destin",
     subtitle: "Ou comment donner du sens à sa vie par l'étude des astres",
     description:
@@ -170,7 +170,7 @@ const books = {
         "https://www.fnac.com/a13936825/Thierry-Gauthier-Les-Ames-indigo#omnsearchpos=1",
     },
   },
-  11: {
+  1: {
     title: "Sous le voile d'Isis",
     subtitle: "Ou comment retrouver l'âme de l'humanité",
     description:
