@@ -1,4 +1,21 @@
 const books = {
+  14: {
+    title: "Journal intime de flammes jumelles",
+    subtitle: "Par Frédérique Cornille-Pastuszkiewicz et Daniël Vigne",
+    description:
+      "Ce livre est le témoignage d’une rencontre entre deux flammes jumelles qui s'accomplissent à travers le phénomène de l’effet miroir. Leurs âmes cheminent sur la voie de l'amour les révélant l'une à l'autre par une meilleure compréhension introspective afin de trouver l’équilibre intérieur entre le Yin et le Yang. Cette complémentarité se lit à travers un registre poétique pour la voix féminine qui structure son expérience profonde avec des accents lyriques, et un registre plus cérébral pour la seconde voix. Ce double récit musical est ponctué et équilibré par la présence d’un au-delà surprenant.",
+    image: "assets/images/flammes.webp",
+    purchaseLinks: {
+      edilivre:
+        "https://www.edilivre.com/journal-intime-de-flammes-jumelles-frederique-cornille-pastuszkiewicz-et-daniel-vigne.html/",
+      amazon: "https://amzn.eu/d/36xxZkC",
+      /*       leLysBleu:
+        "https://www.lysbleueditions.com/produit/a-la-plume-de-votre-ame-votre-ame-est-elle-aussi-legere-quune-plume/",
+*/
+      laFnac:
+        "https://www.fnac.com/a21019481/Frederique-Cornille-Pastuszkiewicz-Journal-intime-de-flammes-jumelles",
+    },
+  },
   13: {
     title: "L'Intrication humaine",
     subtitle: "Mieux comprendre l'autre",

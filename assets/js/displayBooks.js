@@ -32,6 +32,7 @@ function displayABook(livre) {
     const lienAchat = document.createElement("a");
     lienAchat.href = link;
     lienAchat.innerText = vendor.charAt(0).toUpperCase() + vendor.slice(1);
+    lienAchat.target = "_blank";
     containerLiens.append(lienAchat);
   }
   containerLiensAchat.append(containerLiens);
@@ -67,7 +68,7 @@ function linksOfProfileAuthor() {
   liensAchat.classList.add("liensAuthor");
   liensAchat.innerHTML = `Retrouver tous les ouvrages de l'auteur sur
     <a href="https://www.edilivre.com/?s=&amp;a=Dani%C3%ABl+Vigne" target="_blank">Edilivre.com</a>
-    et sur <a href="https://www.lysbleueditions.com/catalogue/?_recherche_par_titre_auteur=daniel+vigne">Le lys bleu</a>
+    et sur <a href="https://www.lysbleueditions.com/catalogue/?_recherche_par_titre_auteur=daniel+vigne" target="_blank">Le lys bleu</a>
     ou partout dans le monde sur Amazon et la Fnac.`;
   ouvrages.append(liensAchat);
 }
