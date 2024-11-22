@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Admin Page</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+        margin: 0;
+        padding: 0;
+      }
+      .header {
+        background-color: #333;
+        color: #fff;
+        padding: 10px 0;
+        text-align: center;
+      }
+      .container {
+        width: 80%;
+        margin: 20px auto;
+        background: #e9e7e7;
+        padding: 20px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+      .nav {
+        display: flex;
+        justify-content: space-around;
+        background: #444;
+        padding: 10px;
+      }
+      .nav a {
+        color: #fff;
+        text-decoration: none;
+        padding: 10px 20px;
+      }
+      .nav a:hover {
+        background: #555;
+      }
+      .content {
+        margin: 20px;
+        padding: 20px;
+        background: #fff;
+      }
+      .footer {
+        text-align: center;
+        padding: 10px;
+        background: #333;
+        color: #fff;
+        position: fixed;
+        width: 100%;
+        bottom: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <h1>Admin Dashboard</h1>
+    </div>
+    <div class="nav">
+      <a href="#home">Ajouter un nouveau livre</a>
+      <a href="#users">Modifier les infos des livres</a>
+      <a href="#settings">Supprimer un livre</a>
+      <a href="#logout">Déconnection</a>
+    </div>
+    <div class="container">
+      <div class="content">
+        <h2>Bienvenue, Père</h2>
+        <p>Use the navigation bar to manage the website.</p>
+      </div>
+      <div class="content">
+        <form action="/add-book" method="post">
+          <h3>Ajouter un nouveau livre</h3>
+          <label for="title">Titre:</label>
+          <input type="text" id="title" name="title" required /><br /><br />
+          <label for="author">Auteur:</label>
+          <input type="text" id="author" name="author" required /><br /><br />
+          <label for="isbn">ISBN:</label>
+          <input type="text" id="isbn" name="isbn" required /><br /><br />
+          <input type="submit" value="Ajouter" />
+        </form>
+      </div>
+      <div class="content">
+        <form action="/edit-book" method="post">
+          <h3>Modifier les infos des livres</h3>
+          <label for="book-id">ID du livre:</label>
+          <input type="text" id="book-id" name="book-id" required /><br /><br />
+          <label for="new-title">Nouveau titre:</label>
+          <input type="text" id="new-title" name="new-title" /><br /><br />
+          <label for="new-author">Nouvel auteur:</label>
+          <input type="text" id="new-author" name="new-author" /><br /><br />
+          <label for="new-isbn">Nouveau ISBN:</label>
+          <input type="text" id="new-isbn" name="new-isbn" /><br /><br />
+          <input type="submit" value="Modifier" />
+        </form>
+      </div>
+      <div class="content">
+        <form action="/delete-book" method="post">
+          <h3>Supprimer un livre</h3>
+          <label for="delete-book-id">ID du livre:</label>
+          <input
+            type="text"
+            id="delete-book-id"
+            name="delete-book-id"
+            required
+          /><br /><br />
+          <input type="submit" value="Supprimer" />
+        </form>
+      </div>
+    </div>
+    <div class="footer">
+      <p>&copy; papou</p>
+    </div>
+  </body>
+</html>
