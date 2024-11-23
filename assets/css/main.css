@@ -87,10 +87,6 @@ img:hover {
   margin: 80px auto;
 }
 
-#photoAuteur {
-  border-radius: 2px;
-}
-
 article p {
   padding: 10px;
   font-family: "Dosis", sans-serif;
@@ -99,10 +95,15 @@ article p {
 
 .photoEtArticle {
   display: flex;
-  margin: 1em;
+  margin: 40px 20px;
   align-items: center;
 }
-
+.photoEtArticle h3 {
+  margin: 0;
+}
+.photoEtArticle #photoAuteur {
+  border-radius: 2px;
+}
 a {
   color: black;
   text-decoration: underline;
@@ -118,6 +119,7 @@ h3 {
   font-size: 2em;
   text-align: center;
   cursor: pointer;
+  letter-spacing: 1px;
 }
 
 h4 {
@@ -146,8 +148,12 @@ footer .mailto {
   display: flex;
   align-items: center;
 }
+footer .mailto img {
+  width: 25px;
+  margin: 0 7px;
+}
 #reseauxSociaux a img {
-  width: 60px;
+  width: 40px;
   padding: 10px;
 }
 
@@ -173,5 +179,6 @@ footer .mailto {
   .photoEtArticle {
     flex-direction: column;
     align-items: center;
+    margin: 20px 0 30px;
   }
 }
