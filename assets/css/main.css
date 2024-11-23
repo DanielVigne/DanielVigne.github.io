@@ -78,6 +78,9 @@ section {
   background-color: rgba(230, 240, 220, 1);
   border-bottom: 1px solid black;
 }
+#ouvrages {
+  padding: 30px 0;
+}
 img:hover {
   opacity: 0.9;
 }
@@ -98,7 +101,8 @@ article p {
   margin: 40px 20px;
   align-items: center;
 }
-.photoEtArticle h3 {
+
+h3 {
   margin: 0;
 }
 .photoEtArticle #photoAuteur {
@@ -161,7 +165,7 @@ footer .mailto img {
   cursor: pointer;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 768px) {
   header nav {
     position: initial;
     flex-direction: column;
@@ -173,12 +177,27 @@ footer .mailto img {
   #headerTitle {
     margin-top: 0;
   }
-  p {
-    font-size: 30px;
-  }
+
   .photoEtArticle {
     flex-direction: column;
     align-items: center;
     margin: 20px 0 30px;
+  }
+  h1 {
+    font-size: 3.5rem;
+  }
+
+  h2 {
+    font-size: 3rem;
+  }
+
+  h3 {
+    font-size: 2.5rem;
+  }
+  h4 {
+    font-size: 2rem;
+  }
+  p {
+    font-size: 1.5rem;
   }
 }
