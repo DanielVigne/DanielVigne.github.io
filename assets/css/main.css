@@ -63,10 +63,6 @@ main {
   padding-top: 30px;
 }
 
-a {
-  text-decoration: none;
-}
-
 p {
   font-size: larger;
   margin-bottom: 0;
@@ -102,15 +98,17 @@ article p {
   align-items: center;
 }
 
-h3 {
-  margin: 0;
-}
 .photoEtArticle #photoAuteur {
   border-radius: 2px;
 }
 a {
   color: black;
   text-decoration: underline;
+  display: inline-block;
+  min-height: 24px;
+  min-width: 24px;
+  line-height: 24px;
+  margin-bottom: 6px;
 }
 
 a:hover {
@@ -121,6 +119,7 @@ a:hover {
 h3 {
   font-family: "Dosis", sans-serif;
   font-size: 2em;
+  margin: 0;
   text-align: center;
   cursor: pointer;
   letter-spacing: 1px;
@@ -137,6 +136,7 @@ h5 {
   font-family: "Dosis", sans-serif;
   text-align: center;
   margin: 10px;
+  font-size: 1.2em;
 }
 
 /* FOOTER */
