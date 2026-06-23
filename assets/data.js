@@ -1,4 +1,24 @@
 const books = {
+  15: {
+    title: "Qui sommes-nous en vérité ?",
+    subtitle:
+      "Sommes-nous durablement heureux en nous accrochant désespérément aux choses extérieures à nous-même ?",
+    description:
+      "Et si notre identité n’était qu’un masque ? Derrière le tumulte de nos pensées et les rôles que nous jouons en société se cache une réalité bien plus vaste. Daniël Vigne nous invite à questionner les certitudes existentielles auxquelles nous sommes conditionnés. L’auteur appelle à lever le voile sur cette architecture invisible. Qui sommes-nous en vérité ? Aurions-nous peur de notre éclatante nudité ? Des cycles de réincarnation à l’éveil d'une force intérieure, de la psychostasie égyptienne aux familles d’âmes, Daniël propose une réelle investigation au travers d’expériences vécues et de témoignages. Un voyage fascinant aux confins de la conscience, telle une odyssée intérieure.",
+    image: "assets/images/qui-sommes-nous-en-verite-.jpg",
+    purchaseLinks: {
+      edilivre:
+        "https://librairie.edilivre.com/esoterisme/36980-qui-sommes-nous-en-verite--9782414824182.html",
+      amazon:
+        "https://www.amazon.fr/Qui-sommes-nous-v%C3%A9rit%C3%A9-Dani%C3%ABl-Vigne/dp/2414824182/ref=sr_1_1?__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=FFNTV8J5FB6T&dib=eyJ2IjoiMSJ9.MCDndse4AZlF7ie_hE2rSqe3pSqy-ASV4Lxp7SdxjyHGjHj071QN20LucGBJIEps.LK-pD0vR26-vvjOQY2mixp85_RTXeSG_uxUkvBU6PL0&dib_tag=se&keywords=qui+sommes+nous+en+v%C3%A9rit%C3%A9+%3F&qid=1782216155&sprefix=qui+sommes+nous+en+bv%C3%A9rit%C3%A9+%2Caps%2C159&sr=8-1",
+      /*       leLysBleu:
+        "https://www.lysbleueditions.com/produit/a-la-plume-de-votre-ame-votre-ame-est-elle-aussi-legere-quune-plume/",
+*/
+      laFnac:
+        "https://www.fnac.com/a23148364/Daniel-Vigne-Qui-sommes-nous-en-verite",
+    },
+  },
+
   14: {
     title: "Journal intime de flammes jumelles",
     subtitle: "Par Frédérique Cornille-Pastuszkiewicz et Daniël Vigne",
